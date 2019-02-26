@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmlns:tuxschema="http://ns.tibco.com/bw/sharedresource/tuxschema" xmi:id="_0kGx0K3rEeeMRsrk6Zy87Q" name="invokeoracletuxedoservice_example.TuxSchemaResource" type="tuxschema:TuxSchema">
+  <jndi:configuration xsi:type="tuxschema:TuxSchema" xmi:id="_0kGx0a3rEeeMRsrk6Zy87Q" inputHeaderFile="C:\dev\Tuxedo\Tux12\SeqElemInput.h" outputHeaderFile="C:\TIBCO\BW6\BW651V9.1\bw\palettes\tux\7.0\examples\oracle_tuxedo_plugin_headerfiles\oracle_tuxedo_plugin_headerfiles\EmpInfoOutput.h"/>
+</jndi:namedResource>

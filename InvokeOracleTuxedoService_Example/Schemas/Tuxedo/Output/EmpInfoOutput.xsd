@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<schema xmlns:tns="http://www.tibco.com/xmlns/tux/EmpInfoOutput" attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://www.tibco.com/xmlns/tux/EmpInfoOutput" xmlns="http://www.w3.org/2001/XMLSchema">
+    <element name="RfcResponse_EmpInfoOutput" type="tns:EmpInfoOutput_Type"/>
+    <complexType name="EmpInfoOutput_Type">
+        <sequence>
+            <element minOccurs="0" name="EMPID_33558533" type="string"/>
+            <element minOccurs="0" name="DEPTID_33558534" type="string"/>
+            <element minOccurs="0" name="EMPNAME_167776263" type="string"/>
+            <element minOccurs="0" name="DEPTNAME_167776264" type="string"/>
+            <element minOccurs="0" name="SALARY_100667401" type="string"/>
+            <element minOccurs="0" name="BASIC_134221834" type="string"/>
+            <element minOccurs="0" name="HRA_4107" type="string"/>
+            <element minOccurs="0" name="CFLAG_67112972" type="string"/>
+            <element minOccurs="0" name="CITY_167776269" type="string"/>
+            <element minOccurs="0" name="EVENT_NAME_167776270" type="string"/>
+        </sequence>
+    </complexType>
+</schema>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<schema xmlns:tns="http://www.tibco.com/xmlns/tux/SeqElemOutput" attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://www.tibco.com/xmlns/tux/SeqElemOutput" xmlns="http://www.w3.org/2001/XMLSchema">
+    <element name="RfcResponse_SeqElemOutput" type="tns:SeqElemOutput_Type"/>
+    <complexType name="ReqRespReply_ERRSEQ_List_Type">
+        <sequence>
+            <element maxOccurs="unbounded" minOccurs="0" name="item" type="tns:ReqRespReply_ERRSEQ_List"/>
+        </sequence>
+    </complexType>
+    <complexType name="ReqRespReply_ERRSEQ_List">
+        <sequence>
+            <element minOccurs="0" name="MC_ERROR_CODE_33558644" type="string"/>
+            <element minOccurs="0" name="MC_ERROR_TEXT_167776373" type="string"/>
+        </sequence>
+    </complexType>
+    <complexType name="ReqRespReply_WARNSEQ_List_Type">
+        <sequence>
+            <element maxOccurs="unbounded" minOccurs="0" name="item" type="tns:ReqRespReply_WARNSEQ_List"/>
+        </sequence>
+    </complexType>
+    <complexType name="ReqRespReply_WARNSEQ_List">
+        <sequence>
+            <element minOccurs="0" name="MC_WARNING_CODE1_33558647" type="string"/>
+            <element minOccurs="0" name="MC_WARNING_TEXT1_167776376" type="string"/>
+        </sequence>
+    </complexType>
+    <complexType name="SeqElemOutput_Type">
+        <sequence>
+            <element minOccurs="0" name="SVC_STATUS_67113075" type="string"/>
+            <element minOccurs="0" name="ReqRespReply_ERRSEQ_List" type="tns:ReqRespReply_ERRSEQ_List_Type"/>
+            <element minOccurs="0" name="MC_WARNING_CNT_33558646" type="string"/>
+            <element minOccurs="0" name="ReqRespReply_WARNSEQ_List" type="tns:ReqRespReply_WARNSEQ_List_Type"/>
+            <element minOccurs="0" name="MC_WARNING_CODE2_33558649" type="string"/>
+            <element minOccurs="0" name="MC_WARNING_TEXT2_167776378" type="string"/>
+            <element minOccurs="0" name="MC_WARNING_CODE3_33558651" type="string"/>
+            <element minOccurs="0" name="MC_WARNING_TEXT3_167776380" type="string"/>
+            <element minOccurs="0" name="MC_WARNING_CODE4_33558653" type="string"/>
+            <element minOccurs="0" name="MC_WARNING_TEXT4_167776382" type="string"/>
+            <element minOccurs="0" name="MC_WARNING_CODE5_33558655" type="string"/>
+            <element minOccurs="0" name="MC_WARNING_TEXT5_167776384" type="string"/>
+        </sequence>
+    </complexType>
+</schema>

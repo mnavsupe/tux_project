@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<schema xmlns:tns="http://www.tibco.com/xmlns/tux/SeqElemInput" attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://www.tibco.com/xmlns/tux/SeqElemInput" xmlns="http://www.w3.org/2001/XMLSchema">
+    <complexType name="ReqRespRequest_SUBSEQ_List_Type">
+        <sequence>
+            <element maxOccurs="unbounded" minOccurs="0" name="item" type="tns:ReqRespRequest_SUBSEQ_List_Item"/>
+        </sequence>
+    </complexType>
+    <complexType name="ReqRespRequest_SUBSEQ_List_Item">
+        <sequence>
+            <element minOccurs="0" name="SUBSCRIBER_NO_167776367" type="string"/>
+            <element minOccurs="0" name="ACT_CODE_167776368" type="string"/>
+            <element minOccurs="0" name="DEALER_CODE_167776369" type="string"/>
+        </sequence>
+    </complexType>
+    <element name="RfcRequest_SeqElemInput" type="tns:SeqElemInput_Type"/>
+    <complexType name="SeqElemInput_Type">
+        <sequence>
+            <element minOccurs="0" name="OPERATOR_ID_33558633" type="string"/>
+            <element minOccurs="0" name="APPLICATION_ID_167776362" type="string"/>
+            <element minOccurs="0" name="CHANNEL_ID_167776363" type="string"/>
+            <element minOccurs="0" name="SERVICE_PARTNER_ID_167776364" type="string"/>
+            <element minOccurs="0" name="BAN_33558637" type="string"/>
+            <element minOccurs="0" name="ROW_COUNT_33558638" type="string"/>
+            <element minOccurs="0" name="ReqRespRequest_SUBSEQ_List" type="tns:ReqRespRequest_SUBSEQ_List_Type"/>
+            <element minOccurs="0" name="HOTI_167776370" type="string"/>
+            <element name="ServiceName" type="string"/>
+        </sequence>
+    </complexType>
+</schema>

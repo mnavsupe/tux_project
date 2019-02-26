@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<schema xmlns:tns="http://www.tibco.com/xmlns/tux/AllDataTypesOutput" attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://www.tibco.com/xmlns/tux/AllDataTypesOutput" xmlns="http://www.w3.org/2001/XMLSchema">
+    <element name="RfcResponse_AllDataTypesOutput" type="tns:AllDataTypesOutput_Type"/>
+    <complexType name="AllDataTypesOutput_Type">
+        <sequence>
+            <element minOccurs="0" name="FIELD1_4001" type="string"/>
+            <element minOccurs="0" name="FIELD2_33558434" type="string"/>
+            <element minOccurs="0" name="FIELD3_67112867" type="string"/>
+            <element minOccurs="0" name="FIELD4_100667300" type="string"/>
+            <element minOccurs="0" name="FIELD5_134221733" type="string"/>
+            <element minOccurs="0" name="FIELD6_167776166" type="string"/>
+            <element minOccurs="0" name="FIELD7_167776167" type="string"/>
+            <element minOccurs="0" name="FIELD8_167776168" type="string"/>
+            <element minOccurs="0" name="FIELD9_167776169" type="string"/>
+            <element minOccurs="0" name="FIELD10_167776170" type="string"/>
+            <element minOccurs="0" name="FIELD11_167776171" type="string"/>
+            <element minOccurs="0" name="FIELD12_167776172" type="string"/>
+            <element minOccurs="0" name="FIELD13_167776173" type="string"/>
+            <element minOccurs="0" name="FIELD14_167776174" type="string"/>
+            <element minOccurs="0" name="FIELD15_167776175" type="string"/>
+            <element minOccurs="0" name="FIELD16_167776176" type="string"/>
+            <element minOccurs="0" name="FIELD17_167776177" type="string"/>
+            <element minOccurs="0" name="FIELD18_167776178" type="string"/>
+            <element minOccurs="0" name="FIELD19_167776179" type="string"/>
+            <element minOccurs="0" name="FIELD20_167776180" type="string"/>
+            <element minOccurs="0" name="FIELD21_167776181" type="string"/>
+            <element minOccurs="0" name="FIELD22_167776182" type="string"/>
+            <element minOccurs="0" name="FIELD23_167776183" type="string"/>
+            <element minOccurs="0" name="FIELD24_167776184" type="string"/>
+            <element minOccurs="0" name="FIELD25_167776185" type="string"/>
+            <element minOccurs="0" name="FIELD26_167776186" type="string"/>
+            <element minOccurs="0" name="FIELD27_167776187" type="string"/>
+            <element minOccurs="0" name="FIELD28_167776188" type="string"/>
+            <element minOccurs="0" name="FIELD29_167776189" type="string"/>
+            <element minOccurs="0" name="FIELD30_167776190" type="string"/>
+        </sequence>
+    </complexType>
+</schema>

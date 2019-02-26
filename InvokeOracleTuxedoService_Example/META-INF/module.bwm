@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_xtOrUK3rEeeMRsrk6Zy87Q" targetNamespace="http://tns.tibco.com/bw/composite/InvokeOracleTuxedoService_Example" name="InvokeOracleTuxedoService_Example" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_x5zHsK3rEeeMRsrk6Zy87Q" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_x58RoK3rEeeMRsrk6Zy87Q" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_x6AjEK3rEeeMRsrk6Zy87Q" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_x6ENcK3rEeeMRsrk6Zy87Q" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_x6JF8K3rEeeMRsrk6Zy87Q" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_x6MwUK3rEeeMRsrk6Zy87Q" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_x6PzoK3rEeeMRsrk6Zy87Q" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_x6TeAK3rEeeMRsrk6Zy87Q" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_x6WhUK3rEeeMRsrk6Zy87Q" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_LRWwYK3tEeeMRsrk6Zy87Q" name="TUXEDO_HOME" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:component xmi:id="_xzY9sK3rEeeMRsrk6Zy87Q" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_xzY9sa3rEeeMRsrk6Zy87Q" processName="invokeoracletuxedoservice_example.EmpInfoProc"/>
+  </sca:component>
+  <sca:component xmi:id="_cpcTAK3sEeeMRsrk6Zy87Q" name="ComponentAllDataTypesProc" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_cpcTAa3sEeeMRsrk6Zy87Q" processName="invokeoracletuxedoservice_example.AllDataTypesProc"/>
+  </sca:component>
+  <sca:component xmi:id="_3OL9AK3sEeeMRsrk6Zy87Q" name="ComponentSeqElemProc" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_3OL9Aa3sEeeMRsrk6Zy87Q" processName="invokeoracletuxedoservice_example.SeqElemProc"/>
+  </sca:component>
+  <sca:component xmi:id="_JamPIMAtEeeSf4GwisIvPw" name="ComponentNullElemsProc" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_JamPIcAtEeeSf4GwisIvPw" processName="invokeoracletuxedoservice_example.NullElemsProc"/>
+  </sca:component>
+</sca:composite>

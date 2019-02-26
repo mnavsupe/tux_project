@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmlns:tuxconnection="http://ns.tibco.com/bw/sharedresource/tuxconnection" xmi:id="_EetNUK3sEeeMRsrk6Zy87Q" name="invokeoracletuxedoservice_example.TuxConnectionResource" type="tuxconnection:TuxConnection">
+  <jndi:configuration xsi:type="tuxconnection:TuxConnection" xmi:id="_EetNUa3sEeeMRsrk6Zy87Q" serverAddr="//10.97.108.220:7777"/>
+</jndi:namedResource>
